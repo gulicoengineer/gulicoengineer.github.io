@@ -1,90 +1,134 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>practice</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="content-wrapper header-nav">
+        <h1>にゃんこ教会</h1>
+        <nav>
+          <ul>
+            <li><a href="#">トップページ</a></li>
+            <li><a href="company.html">教会概要</a></li>
+            <li><a href="#">事業内容</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </nav>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">Lesson</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
+    </header>
+    <section class="mainvisual">
+      <div class="bg1"></div>
+      <h2>にゃんこが好き</h2>
+      <img src="img/cat.jpg" alt="猫" class="cat-img1" />
+    </section>
+    <main>
+      <section class="greeting">
+        <div class="content-wrapper content-greeting">
+          <img src="./img/にゃまぞん.jpg" alt="にゃまぞん" />
+          <div class="introduction">
+            <h3>「にゃんこ」とは</h3>
+            <p>
+              にゃんことは、マイペースに生きる動物である。しかし、にゃんこには人に癒しを与える力がある。「かわいらしさ」、それだけでいい。にゃんこにかこまれたい。仕事を邪魔されたい。そんな生活を送れば人の生産性は上がると私は勝手に信じている。
+            </p>
           </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
+      </section>
+      <section class="work">
+        <div class="content-wrapper work-content">
+          <h2>活動内容</h2>
+          <div class="active-contents">
+            <div class="active-content">
+              <img src="./img/ネコ２.jpg" alt="" />
+              <h3>タイトル</h3>
+              <p>
+                かわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいい
+              </p>
+            </div>
+            <div class="active-content">
+              <img src="./img/ねこ３.jpg" alt="" />
+              <h3>タイトル</h3>
+              <p>
+                かわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいい
+              </p>
+            </div>
+            <div class="active-content">
+              <img src="./img/ねこ４.jpg" alt="" />
+              <h3>タイトル</h3>
+              <p>
+                かわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいいかわいい
+              </p>
+            </div>
           </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
+      </section>
+      <section class="news">
+        <div class="content-wrapper">
+          <h2>NEWS</h2>
+          <ul>
+            <li>
+              <a href="#">
+                <time>2019-01-27</time>
+                Good News!Good News!Good News!Good News!Good News!Good News!
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <time>2019-01-27</time>
+                Good News!Good News!Good News!Good News!Good News!Good News!
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <time>2019-01-27</time>
+                Good News!Good News!Good News!Good News!Good News!Good News!
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <time>2019-01-27</time>
+                Good News!Good News!Good News!Good News!Good News!Good News!
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
+      </section>
+      <section class="recruit">
+        <div class="recruit-img"><img src="./img/猫握手.jpg" alt="猫握手"></div>
+        <h2><a href="#">採用情報</a></h2>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="content-wrapper">
+        <h3>にゃんこ教会</h3>
+        <div class="footer-content">
+          <address>
+            <p><a href="#">〒222-2222</a></p>
+            <p><a href="#">東京都猫団地</a></p>
+            <p>TEL : <a href="#">22-2222-2222</a></p>
+            <p>FAX : <a href="#">22-2222-2222</a></p>
+          </address>
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#">トップページ</a></li>
+              <li><a href="#">会社概要</a></li>
+              <li><a href="#">事業内容</a></li>
+              <li><a href="#">採用情報</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
           </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
         </div>
       </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
+      <div class="copyright">
+        <p>©︎XXCo.,Ltd.All Rights Reserved.</p>
       </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
